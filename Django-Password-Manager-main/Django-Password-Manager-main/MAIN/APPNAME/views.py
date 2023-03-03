@@ -135,6 +135,7 @@ def home(request):
             password.password = fernet.decrypt(password.password.encode()).decode()
         context = {
             "passwords":passwords,
+        
         }   
 
 
