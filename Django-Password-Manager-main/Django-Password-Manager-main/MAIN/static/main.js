@@ -31,7 +31,6 @@ copies.forEach(copy =>{
     }
 })
 
-//I added this later, didn't cover it on the tutorial
 //Display the actions of the password card for mobile devices
 const actions = document.querySelectorAll(".actions");
 if (actions){
